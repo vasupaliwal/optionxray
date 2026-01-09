@@ -1,7 +1,3 @@
-import pytest
-
-pytest.importorskip("pandas")
-
 from optionxray.instruments import Option
 from optionxray.scenarios import run_scenarios
 
